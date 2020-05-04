@@ -1,0 +1,26 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  max-width: var(--maxWidth);
+}
+
+.Login > * {
+  margin: 0 10px 10px 10px;
+}
+
+.Login > *:nth-child(2) img {
+  transform: rotate(15deg);
+}
+
+.front-page-img {
+  max-width: 500px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .front-page-img {
+    width: 100%;
+  }
+}

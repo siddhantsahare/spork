@@ -1,0 +1,11 @@
+.Media-textfield-area {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 700px) {
+  .MuiListItemSecondaryAction-root {
+    position: initial !important;
+    transform: initial !important;
+  }
+}

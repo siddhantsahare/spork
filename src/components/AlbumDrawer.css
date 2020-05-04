@@ -1,0 +1,31 @@
+.AlbumDrawer {
+  max-width: var(--maxWidth);
+  margin: 0 auto;
+  min-height: 40vh;
+}
+
+.Album-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 auto;
+  padding: 30px 0;
+  grid-gap: 10px;
+  height: 100%;
+}
+
+.Album-grid > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.AlbumDrawer .thumbnail img {
+  object-fit: cover;
+  height: 200px;
+  width: 400px;
+}
+
+@media (max-width: 700px) {
+  .Album-grid {
+    grid-template-columns: 1fr;
+  }
+}
